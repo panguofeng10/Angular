@@ -1,0 +1,14 @@
+<div class="corporation-base">
+  <h2>{{name}}</h2>
+  <div>Industry: {{info.industry}}</div>
+  <div>website: {{info.website}}</div>
+  <input [(ngModel)]="name" placeholder="name"/>
+  <div *ngIf="name==='Stephen'">
+  <div>Stephen's hobbies: </div>
+  <ul>
+    <li *ngFor="let hobby of hobbies">
+      {{ hobby }}
+    </li>
+  </ul>
+  </div>
+</div>
