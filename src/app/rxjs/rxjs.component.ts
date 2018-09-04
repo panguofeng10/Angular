@@ -16,7 +16,7 @@ export class RxjsComponent implements OnInit{
 
   constructor() { }
 
-  numbers = of(1, 2, 3, 4, 5);
+  numbers = of(1, 2, 3, 4, 5, 6);
 
   ngOnInit() {
 
